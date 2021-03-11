@@ -8,3 +8,7 @@ func greetings() string {
 	fmt.Println("Greetings from greetings module" )
 	return quote.Hello()
 } 
+func Hello() string {
+	fmt.Println("Greetings from greetings module" )
+	return quote.Hello()
+}
