@@ -4,7 +4,7 @@ import (
 	"fmt"
 "rsc.io/quote"
 )
-func greetings() string {
+func Greetings() string {
 	fmt.Println("Greetings from greetings module" )
 	return quote.Hello()
 } 
